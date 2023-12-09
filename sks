@@ -1,0 +1,7 @@
+x=int(input("a.no:"))
+y=int(input("b.no:"))
+print("before:",x,y)
+t=x
+x=y
+y=t
+print("after:",x,y)
